@@ -43,6 +43,7 @@ public class Glucode {
 		hp = new Homepage(driver);
 
 		driver.get(pro.getProperty("url"));
+		Thread.sleep(1000);
 
 	}
 
